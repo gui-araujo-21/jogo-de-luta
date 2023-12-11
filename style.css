@@ -34,6 +34,13 @@
     height: 100%;
 }
 
+.hero-selecting{
+    display: flex;
+    width: 100%;
+}
+
+
+
 .select-chars{
     padding: 20px;
     width: 200px;
@@ -92,6 +99,92 @@
 }
 
 
-.log-area{
+.hero-fighting{
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.hero-fighting-image{
+    width: 270px;
+    height: 245px;
+}
+
+.hero-fighting-image img{
+    width: 100%;
+    height: 100%;
+    border: 5px solid white;
+    object-fit: cover;
+}
+
+.area-stats-hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.name-hp{
+    display: flex;
+    color: aliceblue;
+}
+
+.name-hero{
+    margin-right: 20px;
+}
+
+.life-bar{
+    width: 70%;
+    height: 10px;
+    background-color: white;
+}
+.life{
+    height: inherit;
+    width: 90%;
+    background-color: red;
+}
+
+button{
+    background-color: rgb(196, 196, 196);
+    font-size: 20px;
+    padding: 5px 25px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #9c9c9c;
+}
+
+.button-start{
+    display: flex;
+    background-color: aquamarine;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.log-area {
+    position: absolute;
+    top: 70%;
+    width: 350px;
+    height: 150px;
+    background-color: rgba(255, 4, 4, 0.747);
+    border: #2e2c2c 2px dotted;
+    display: none;
+    padding: 10px;
+    font-size: 16px;
+    box-shadow: 0px 5px 15px rgba(117, 117, 117, 0.3);
+    overflow-y: scroll;
+    border-radius: 8px;
+}
+
+.log-area li {
+    list-style: none;
+    background-color: #e2e2e2;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    padding: 8px; 
+    
 }

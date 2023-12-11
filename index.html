@@ -12,34 +12,76 @@
 
         <div class="game-area">
             <div id="hero">
-                <div class="select-chars">
-                    <div data-hero="1" class="char">Iron Man</div>
-                    <div data-hero="2" class="char">DoctorStranger</div>
+                <div class="hero-selecting">
+                    <div class="select-chars">
+                        <div data-hero="1" class="char">Iron Man</div>
+                        <div data-hero="2" class="char">DoctorStranger</div>
+                    </div>
+                    <div class="area-image">
+                        <img src="" alt="">
+                    </div>
                 </div>
-                <div class="area-image">
-                    <img src="images/1.jpg" alt="">
+                <div class="hero-fighting">
+                    <div class="area-stats-hero">
+                        <div class="name-hp">
+                            <div class="name-hero"></div>
+                            <div class="hero-HP"></div>
+                        </div>
+                        <div class="life-bar">
+                            <div class="life"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-fighting-image">
+                        <img src="" alt="">
+                    </div>
+                    <button class="hero-attack">Atacar</button>
                 </div>
-            </div>
+            </div> 
 
             <div class="versus">VS</div>
 
-
             <div id="anti-hero">
-                <div class="area-image">
-                    <img src="" alt="">
+                <div class="hero-selecting">
+                    <div class="area-image">
+                        <img src="" alt="">
+                    </div>
+                    <div class="select-chars">
+                        <div data-hero="1" class="char">Thanos</div>
+                        <div data-hero="2" class="char">Ronan</div>
+                    </div>
+                    
                 </div>
-                <div class="select-chars">
-                    <div data-hero="1" class="char">Thanos</div>
-                    <div data-hero="2" class="char">Ronan</div>
+                <div class="hero-fighting">
+                    <div class="area-stats-hero">
+                        <div class="name-hp">
+                            <div class="name-hero"></div>
+                            <div class="hero-HP"></div>
+                        </div>
+                        <div class="life-bar">
+                            <div class="life"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-fighting-image">
+                        <img src="" alt="">
+                    </div>
+                    <button class="hero-attack">Atacar</button>
                 </div>
+                
             </div>
         </div>
 
+        <div class="log-area">
+            <ul></ul>
+        </div>
 
-        <button>Start</button>
-        <div class="log-area"></div>
+        <button class="button-start">FIGHT</button>
+        
     </div>
+    
 
+    <script src="heros.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
